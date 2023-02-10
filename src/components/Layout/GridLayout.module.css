@@ -1,0 +1,12 @@
+.gridContainer{
+    width: 100%;
+    display: grid;
+    align-content: space-evenly;
+    justify-content: space-evenly;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+    padding: 0  20px;
+     text-align: left;
+
+
+}

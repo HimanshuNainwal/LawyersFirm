@@ -1,0 +1,43 @@
+
+.slot{
+    width: 84px;
+    border-radius: 3px;
+    padding: 5px 0;
+    display: inline-block;
+    text-align: center;
+    color: #14bef0;
+    border: 1px solid #14bef0;
+    cursor: pointer;
+    margin: 10px 10px;
+}
+.slot:hover{
+    background-color: #14bef0;
+    color: #fff;
+    border: 1px solid #14bef0;}
+.slot.disabled:hover{
+    position: relative;
+    border: 1px solid #b2b1b1;
+    color: #b2b1b1;
+    cursor:default;
+    background: transparent;
+}
+.slot.disabled{
+    position: relative;
+    border: 1px solid #b2b1b1;
+    color: #b2b1b1;
+    cursor:default
+}
+.slot.disabled::after{
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background-color: #d5d6d9;
+    transform: rotate(-20deg);
+}
+
+.LoaderSpinner{
+    margin: 80px auto;
+}

@@ -1,0 +1,273 @@
+{
+  "firms": [
+    {
+      "name": "Firm 1",
+      "about": "Firm 1 is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      "id": "firm1",
+      "image": "firmImage1"
+    },
+    {
+      "name": "Firm 2",
+      "about": "Firm 2 is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      "id": "firm2",
+      "image": "firmImage2"
+    },
+    {
+      "name": "Firm 3",
+      "about": "Firm 3 is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      "id": "firm3",
+      "image": "firmImage3"
+    },
+    {
+      "name": "Firm 4",
+      "about": "Firm 4 is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      "id": "firm4",
+      "image": "firmImage4"
+    }
+  ],
+  "laywers": [
+    {
+      "firmType": "firm1",
+      "name": "Lawyer1",
+      "age": "24",
+      "Speciality": "Public Interest Lawyer",
+      "cost": "10000",
+      "image": "lawyerImage1",
+      "id": "1",
+      "Bookings": [
+        "11:00AM",
+        "12:00PM",
+        "1:00PM",
+        "6:00PM",
+        "2:00PM",
+        "3:00PM",
+        "4:00PM",
+        "10:00AM",
+        "5:00PM"
+      ],
+      "Headers": {
+        "content-type": "application-json"
+      }
+    },
+    {
+      "firmType": "firm1",
+      "name": "Lawyer2",
+      "age": "21",
+      "Speciality": "Tax  Interest Lawyer",
+      "cost": "90000",
+      "id": "2",
+      "image": "lawyerImage2",
+      "Bookings": [
+        "12:00PM",
+        "6:00PM",
+        "1:00PM",
+        "2:00PM",
+        "3:00PM",
+        "10:00AM",
+        "11:00AM",
+        "5:00PM",
+        "4:00PM"
+      ]
+    },
+    {
+      "firmType": "firm1",
+      "name": "Lawyer3",
+      "id": "3",
+      "age": "54",
+      "Speciality": "Criminal  Lawyer",
+      "cost": "60000",
+      "image": "lawyerImage4",
+      "Bookings": [
+        "10:00AM",
+        "12:00PM"
+      ]
+    },
+    {
+      "firmType": "firm1",
+      "name": "Lawyer 4",
+      "id": "4",
+      "age": "24",
+      "Speciality": "Public  Lawyer",
+      "cost": "70000",
+      "image": "lawyerImage2",
+      "Bookings": []
+    },
+    {
+      "firmType": "firm1",
+      "id": "5",
+      "name": "Lawyer4",
+      "age": "34",
+      "Speciality": "Corporate  Lawyer",
+      "cost": "50000",
+      "image": "lawyerImage3",
+      "Bookings": []
+    },
+    {
+      "firmType": "firm2",
+      "name": "Lawyer5",
+      "age": "24",
+      "Speciality": "Public Interest Lawyer",
+      "cost": "10000",
+      "image": "lawyerImage1",
+      "id": "6",
+      "Bookings": [
+        "6:00PM",
+        "2:00PM"
+      ]
+    },
+    {
+      "firmType": "firm2",
+      "name": "Lawyer3",
+      "age": "21",
+      "Speciality": "Tax  Interest Lawyer",
+      "cost": "90000",
+      "id": "7",
+      "image": "lawyerImage2",
+      "Bookings": []
+    },
+    {
+      "firmType": "firm2",
+      "name": "Lawyer4",
+      "id": "8",
+      "age": "54",
+      "Speciality": "Criminal  Lawyer",
+      "cost": "60000",
+      "image": "lawyerImage4",
+      "Bookings": []
+    },
+    {
+      "firmType": "firm2",
+      "name": "Lawyer6",
+      "id": "9",
+      "age": "24",
+      "Speciality": "Public  Lawyer",
+      "cost": "70000",
+      "image": "lawyerImage2",
+      "Bookings": []
+    },
+    {
+      "firmType": "firm2",
+      "id": "10",
+      "name": "Lawyer5",
+      "age": "34",
+      "Speciality": "Corporate  Lawyer",
+      "cost": "50000",
+      "image": "lawyerImage3",
+      "Bookings": []
+    },
+    {
+      "firmType": "firm3",
+      "name": "Lawyer1",
+      "age": "24",
+      "Speciality": "Public Interest Lawyer",
+      "cost": "10000",
+      "image": "lawyerImage1",
+      "id": "11",
+      "Bookings": []
+    },
+    {
+      "firmType": "firm3",
+      "name": "Lawyer2",
+      "age": "21",
+      "Speciality": "Tax  Interest Lawyer",
+      "cost": "90000",
+      "id": "12",
+      "image": "lawyerImage2",
+      "Bookings": []
+    },
+    {
+      "firmType": "firm3",
+      "name": "Lawyer3",
+      "id": "13",
+      "age": "54",
+      "Speciality": "Criminal  Lawyer",
+      "cost": "60000",
+      "image": "lawyerImage4",
+      "Bookings": []
+    },
+    {
+      "firmType": "firm3",
+      "name": "Lawyer3",
+      "id": "4",
+      "age": "24",
+      "Speciality": "Public  Lawyer",
+      "cost": "70000",
+      "image": "lawyerImage2",
+      "Bookings": []
+    },
+    {
+      "firmType": "firm3",
+      "id": "15",
+      "name": "Lawyer4",
+      "age": "34",
+      "Speciality": "Corporate  Lawyer",
+      "cost": "50000",
+      "image": "lawyerImage3",
+      "Bookings": []
+    },
+    {
+      "firmType": "firm4",
+      "name": "Lawyer5",
+      "age": "24",
+      "Speciality": "Public Interest Lawyer",
+      "cost": "10000",
+      "image": "lawyerImage1",
+      "id": "16",
+      "Bookings": []
+    },
+    {
+      "firmType": "firm4",
+      "name": "Lawyer3",
+      "age": "21",
+      "Speciality": "Tax  Interest Lawyer",
+      "cost": "90000",
+      "id": "17",
+      "image": "lawyerImage2",
+      "Bookings": [
+        "4:00PM"
+      ]
+    },
+    {
+      "firmType": "firm4",
+      "name": "Lawyer4",
+      "id": "18",
+      "age": "54",
+      "Speciality": "Criminal  Lawyer",
+      "cost": "60000",
+      "image": "lawyerImage4",
+      "Bookings": []
+    },
+    {
+      "firmType": "firm4",
+      "name": "Lawyer6",
+      "id": "19",
+      "age": "24",
+      "Speciality": "Public  Lawyer",
+      "cost": "70000",
+      "image": "lawyerImage2",
+      "Bookings": []
+    },
+    {
+      "firmType": "firm4",
+      "id": "20",
+      "name": "Lawyer5",
+      "age": "34",
+      "Speciality": "Corporate  Lawyer",
+      "cost": "50000",
+      "image": "lawyerImage3",
+      "Bookings": []
+    }
+  ],
+  "lawyerAppoinments": {},
+  "appoinmentTiming": {
+    "1": "10:00AM",
+    "2": "11:00AM",
+    "3": "12:00PM",
+    "4": "1:00PM",
+    "5": "2:00PM",
+    "6": "3:00PM",
+    "7": "4:00PM",
+    "8": "5:00PM",
+    "9": "6:00PM"
+  }
+}
